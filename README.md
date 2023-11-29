@@ -40,7 +40,7 @@ import { Dialog } from 'svelte-dialog-component'
 ``` javascript
     <script>
     import { onMount } from "svelte";
-    import Dialog from "$lib/Dialog/Dialog.svelte";
+    import {Dialog} from "svelte-dialog-component";
     import {tick} from 'svelte';
 
     /**
